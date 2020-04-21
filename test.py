@@ -108,7 +108,6 @@ def main():
 			f.write(item + "," + "dga\n")
 		else:
 			f.write(item + "," + "notdga\n")
-		print(item,":" ,clf.predict([name[item]]))
 	f.close()
 
 
